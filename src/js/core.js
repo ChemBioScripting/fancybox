@@ -2998,7 +2998,7 @@
 
     hideControls: function (andCaption) {
       var self = this,
-        arr = ["infobar", "toolbar", "nav"];
+        arr = ["infobar", "toolbar", "nav", "caption"];
 
       if (andCaption || !self.current.opts.preventCaptionOverlap) {
         arr.push("caption");
